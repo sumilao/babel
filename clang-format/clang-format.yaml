@@ -1,27 +1,36 @@
 # None\C\Cpp\CSharp\Java\JavaScript\Json\ObjC\Proto\TableGen\TextProto\Verilog
 Language : Cpp
-# LLVM\Google\Chromium\Mozilla\WebKit\Microsoft\GUN\InheritParentConfig
+# 用于配置中未明确设置的所有选项的样式
+# LLVM\Google\Chromium\Mozilla\WebKit\Microsoft\GNU\InheritParentConfig
 BasedOnStyle : LLVM
-# 
+# 访问修饰符的额外缩进或缩进，例如 .public
+# Integer
 AccessModifierOffset : -4
 # Align\DontAlign\AlwaysBreak\BlockIndent
+# 在左括号后是否水平对齐参数
 AlignAfterOpenBracket : Align
-# Left\Right
+# Left\Right\None
 AlignArrayOfStructures : Right
-AlignConsecutiveAssignments : 
-AlignConsecutiveBitFields : 
-AlignConsecutiveDeclarations : 
-AlignConsecutiveMacros : 
-AlignConsecutiveShortCaseStatements : 
-AlignConsecutiveTableGenBreakingDAGArgColons : 
-AlignConsecutiveTableGenCondOperatorColons : 
-AlignConsecutiveTableGenDefinitionColons : 
-AlignEscapedNewlines : 
-AlignOperands : 
-AlignTrailingComments : 
-AllowAllArgumentsOnNextLine : 
-AllowAllConstructorInitializersOnNextLine : 
-AllowAllParametersOfDeclarationOnNextLine : 
+# None\Consecutive\AcrossEmptyLines\AcrossComments\AcrossEmptyLinesAndComments
+AlignConsecutiveAssignments : Consecutive
+# None\Consecutive\AcrossEmptyLines\AcrossComments\AcrossEmptyLinesAndComments
+AlignConsecutiveBitFields : Consecutive
+# None\Consecutive\AcrossEmptyLines\AcrossComments\AcrossEmptyLinesAndComments
+AlignConsecutiveDeclarations : Consecutive
+# None\Consecutive\AcrossEmptyLines\AcrossComments\AcrossEmptyLinesAndComments
+AlignConsecutiveMacros : Consecutive
+# Enabled\AcrossEmptyLines\AcrossComments\AlignCaseArrows\AlignCaseColons
+AlignConsecutiveShortCaseStatements : Consecutive
+# None\Consecutive\AcrossEmptyLines\AcrossComments\AcrossEmptyLinesAndComments
+AlignConsecutiveTableGenBreakingDAGArgColons : Consecutive
+AlignConsecutiveTableGenCondOperatorColons : Consecutive
+AlignConsecutiveTableGenDefinitionColons : Consecutive
+AlignEscapedNewlines : LeftWithLastLine
+AlignOperands : Align
+AlignTrailingComments : Always
+AllowAllArgumentsOnNextLine : true
+AllowAllConstructorInitializersOnNextLine : true
+AllowAllParametersOfDeclarationOnNextLine : true
 AllowBreakBeforeNoexceptSpecifier : 
 AllowShortBlocksOnASingleLine : 
 AllowShortCaseExpressionOnASingleLine : 
@@ -103,7 +112,8 @@ KeepEmptyLinesAtEOF :
 KeepEmptyLinesAtTheStartOfBlocks : 
 KeepFormFeed : 
 LambdaBodyIndentation : 
-Language : 
+# None\C\Cpp\CSharp\Java\JavaScript\Json\ObjC\Proto\TableGen\TextProto\Verilog
+# Language : Cpp
 LineEnding : 
 MacroBlockBegin : 
 MacroBlockEnd : 
