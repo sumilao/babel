@@ -2,6 +2,7 @@
 Language : Cpp
 # LLVM\Google\Chromium\Mozilla\WebKit\Microsoft\GUN\InheritParentConfig
 BasedOnStyle : LLVM
+# 
 AccessModifierOffset : -4
 # Align\DontAlign\AlwaysBreak\BlockIndent
 AlignAfterOpenBracket : Align
